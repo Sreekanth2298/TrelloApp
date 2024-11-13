@@ -1,0 +1,58 @@
+body{
+    background-color: #a85928;
+    padding: 8px 12px;
+}
+#parent-container {
+    background-color: #101204;
+    width: 250px;
+    height: 80vh;
+    border: 1px solid #101204;
+    border-radius: 16px;
+    padding: 4px 8px;
+    display: flex;
+    flex-direction: column;
+}
+#header-container{
+padding: 2px 12px;
+}
+div h4,label,p{
+    color: #b6c2cf;
+}
+button{
+    background-color:#579dff;
+    color: #1e2328;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+.cardNameContainer {
+    padding: 0px 12px;
+    margin: 2px;
+    background-color: #22272b;
+    border-radius: 10px;
+}
+.cardNameContainer.dragging {
+    opacity: 0.5;
+    background-color: #a1d6ff;
+  }
+.cardNameContainer:hover{
+    border: 2px solid #cfcfce;
+}
+input{
+    border-radius: 7px;
+    height: 32px;
+    width: 255px;
+    background-color: #22272b;
+    color: #b6c2cf;
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2px 0px 20px 0px;
+    padding: 2px;
+}
+#butotnContainer{
+    position: absolute;
+    top: 39px;
+    left: 310px;
+}
